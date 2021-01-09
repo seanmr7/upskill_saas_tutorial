@@ -32,3 +32,32 @@
   color: white;
   text-align: center;
 }
+
+// User Index Page styles
+.user-index-avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+.well.row {
+  
+  border: 1px solid rgba(190, 182, 75, 0.25);
+  border-radius: 1%;
+  
+  &.green-bg {
+    background-color: #04D690;
+  }
+  
+  &.blue-bg {
+    background-color: #04A9D6;
+  }
+}
+
+.well.blue-bg {
+  
+}
+
+.user-name {
+  color: black;
+}
